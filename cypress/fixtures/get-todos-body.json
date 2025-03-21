@@ -1,0 +1,37 @@
+[
+    {
+        "id": 2,
+        "user_id": 3,
+        "title": "Automation test todo list",
+        "description": "Cypress test todo List",
+        "created_at": "2025-03-13T17:01:46.000Z"
+    },
+    {
+        "id": 3,
+        "user_id": 3,
+        "title": "Playwright test scenarios",
+        "description": "Validate test cases using Playwright",
+        "created_at": "2025-03-14T10:30:20.000Z"
+    },
+    {
+        "id": 4,
+        "user_id": 3,
+        "title": "Selenium test scripts",
+        "description": "Write automation scripts for Selenium",
+        "created_at": "2025-03-15T08:45:10.000Z"
+    },
+    {
+        "id": 5,
+        "user_id": 3,
+        "title": "JUnit test cases",
+        "description": "Write and execute JUnit test cases",
+        "created_at": "2025-03-16T14:20:55.000Z"
+    },
+    {
+        "id": 6,
+        "user_id": 3,
+        "title": "API automation with RestAssured",
+        "description": "Validate API responses and assertions",
+        "created_at": "2025-03-17T09:12:33.000Z"
+    }
+]

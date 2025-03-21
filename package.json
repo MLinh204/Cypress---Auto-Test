@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "cypress": "^14.2.0",
+    "cypress-xpath": "^2.0.1"
+  },
+  "scripts": {
+    "test": "rm -rf cypress/screenshots && cypress run",
+    "test:debug": "cypress run --browser chrome --debug-brk",
+    "test:open": "cypress open",
+    "test:parallel": "cypress run --parallel --group 'e2e'",
+    "test:headless:specific": "node runCypress.js",
+    "test:headless:all": "npx cypress run --headless"
+  },
+  "dependencies": {
+    "cypress-plugin-api": "^2.11.2",
+    "cypress-real-events": "^1.14.0"
+  }
+}
