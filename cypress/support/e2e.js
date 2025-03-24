@@ -18,3 +18,4 @@ import './commands'
 import "cypress-real-events";
 import 'cypress-xpath';
 import 'cypress-plugin-api';
+import 'cypress-file-upload';

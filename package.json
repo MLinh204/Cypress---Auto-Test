@@ -1,7 +1,11 @@
 {
   "devDependencies": {
     "cypress": "^14.2.0",
-    "cypress-xpath": "^2.0.1"
+    "cypress-downloadfile": "^1.2.4",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-xpath": "^2.0.1",
+    "fs-extra": "^11.3.0",
+    "papaparse": "^5.5.2"
   },
   "scripts": {
     "test": "rm -rf cypress/screenshots && cypress run",
