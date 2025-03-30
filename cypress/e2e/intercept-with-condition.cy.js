@@ -8,7 +8,6 @@ describe('On the todo list page', function(){
                 cy.wait('@loginUser').then((res) => {
                     expect(res.response.body.user.username).to.eq('LinhAuto');
                     let userId = res.response.body.user.id;
-                    console.log(userId);
                     sessionStorage.setItem('userId', userId);
                 });
             });
