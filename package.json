@@ -13,7 +13,7 @@
     "test:open": "cypress open",
     "test:parallel": "cypress run --parallel --group 'e2e'",
     "test:headless:specific": "node runCypress.js",
-    "test:headless:all": "npx cypress run --headless"
+    "test:headless": "npx cypress run --browser chrome"
   },
   "dependencies": {
     "cypress-plugin-api": "^2.11.2",

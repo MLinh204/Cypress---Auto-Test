@@ -27,7 +27,7 @@ describe('On the todo list page', function(){
                         }
                         return res;
                     });
-                });
+                });                
                 cy.visit('/todo');
             });
         });

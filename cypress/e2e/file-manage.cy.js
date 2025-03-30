@@ -37,6 +37,7 @@ describe('File manage testing', function () {
         it.only('should move a file', function () {
             const dir = '/Users/linhhoang204/Documents/Sheets/TestFolder';
             const destinatedDir = '/Users/linhhoang204/Documents/Sheets/destinatedFolder';
+            cy.deleteAllFiles(destinatedDir);
             cy.moveFile(`${dir}/testFile.txt`, `${destinatedDir}/MovedFile.txt`);
         });
     })
